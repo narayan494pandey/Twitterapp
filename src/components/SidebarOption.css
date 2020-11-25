@@ -1,0 +1,9 @@
+.sidebarOption {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2vw;
+  align-items: center;
+}
+.sidebarOption > h2 {
+  margin-left: 4vw;
+}
