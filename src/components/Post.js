@@ -20,7 +20,7 @@ function Post({
                 <div className="post__header">
                     <div className="post__headerText">
                         <h3>
-                        Narayan{" "} <span> 
+                        Narayan{" "} <span className="post__headerSpecial"> 
                             <VerifiedUserIcon className="post__badge" />@narayan 
                         </span>
                         </h3>
