@@ -22,7 +22,7 @@ function Widgets() {
                     options={{height:400}}
                 />
                 <TwitterShareButton
-                    url={'https://www.facebook.com/narayan.pandey.35728/'}
+                    url={'https://www.facebook.com/narayanpandey/'}
                     options={{ text: '#reactjs is awesome', via: 'Narayan27928891' }}
               />
             </div>
