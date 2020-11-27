@@ -29,7 +29,7 @@ function Post({
                         <p>{text}</p>
                     </div>
                 </div>
-                <img src={image} />
+                <img src={image}   alt="Image" />
                 <div className="post__footer">
                     <ChatBubbleOutline fontsize="small" />
                     <Repeat fontsize="small" />
