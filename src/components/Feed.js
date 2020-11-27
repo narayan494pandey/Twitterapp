@@ -10,10 +10,36 @@ function Feed() {
             </div>
             <TweetBox />
             <div className="feed__post">
-                <Post  /> 
-                <Post  /> 
-                <Post  /> 
-                <Post  /> 
+                <Post dispalyName="Narayan Pandey" 
+                    username='@narayan' verified={true}
+                    text="Why are you Twitting?"
+                    avatar="/images/Narayan.jpg"
+                    image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
+                /> 
+                <Post dispalyName="Narayan Pandey" 
+                    username='narayan' verified={true}
+                    text="Lets Learn Raect It going to be fun!"
+                    avatar="/images/Narayan.jpg"
+                    image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
+                /> 
+                <Post dispalyName="Kumar Sanu" 
+                    username='@kumarsanu' verified={true}
+                    text="Lets hey hey haha ha It going to be fun!"
+                    avatar="/images/ks.jpg"
+                    image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
+                /> 
+                <Post dispalyName="Chhotu" 
+                    username='@chhotu' verified={true}
+                    text="Lets Use Firebase for Hosting!"
+                    avatar="/images/Narayan.jpg"
+                    image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
+                /> 
+                <Post dispalyName="Ananonyms" 
+                    username='@someone' verified={false}
+                    text="Its Don't going to work !"
+                    avatar="/images/ak.jpg"
+                    image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
+                /> 
         
             </div>
               

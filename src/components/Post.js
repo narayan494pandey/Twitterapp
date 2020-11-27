@@ -14,22 +14,22 @@ function Post({
     return (
         <div className="post">
            <div className="post__avatar">
-                <Avatar src="/images/Narayan.jpg" />
+                <Avatar src={avatar} />
            </div>
            <div className="post__body">
                 <div className="post__header">
                     <div className="post__headerText">
                         <h3>
-                        Narayan{" "} <span className="post__headerSpecial"> 
-                            <VerifiedUserIcon className="post__badge" />@narayan 
+                        {dispalyName} <span className="post__headerSpecial"> 
+                      {verified &&      <VerifiedUserIcon  className="post__badge" />}{username}
                         </span>
                         </h3>
                     </div>
                     <div className="post__headerDescription">
-                        <p>I challege you to build a twiiter Clone with Reactjs</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                <img src="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif" />
+                <img src={image} />
                 <div className="post__footer">
                     <ChatBubbleOutline fontsize="small" />
                     <Repeat fontsize="small" />
