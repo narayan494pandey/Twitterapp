@@ -32,7 +32,7 @@ function Feed() {
                     />
                 ))}
                 </FlipMove>
-             
+             {/*
                 <Post dispalyName="Narayan Pandey" 
                     username='@narayan' verified={true}
                     text="Why are you Twitting?"
@@ -63,7 +63,7 @@ function Feed() {
                     avatar="/images/ak.jpg"
                     image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
                 /> 
-                
+                */}
         
             </div>
               

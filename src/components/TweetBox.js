@@ -9,12 +9,12 @@ function TweetBox() {
     const sendTweet = e =>{
         e.preventDefault();
         db.collection('posts').add({
-            dispalyName:'Narendra Modi',
-            username:'@narendramodi',
+            dispalyName:'Narayan Kumar',
+            username:'@narayankumar',
             verified:true,
             text: tweetMessage,
             image: tweetImage,
-            avatar:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_August_08%2C_2019_%28cropped%29.jpg",
+            avatar:"/images/Narayan.jpg",
         })
 
     }
