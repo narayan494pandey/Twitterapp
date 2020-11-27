@@ -3,6 +3,7 @@ import './Feed.css'
 import Post from './Post'
 import TweetBox from './TweetBox'
 import db from './firebase'
+import FlipMove from 'react-flip-move';
 function Feed() {
     const [posts, setPosts] = useState([]);
     useEffect(() =>{
@@ -18,16 +19,20 @@ function Feed() {
             </div>
             <TweetBox />
             <div className="feed__post">
+            <FlipMove>
                 {posts.map(post =>(
                     <Post 
-                    dispalyName={post.dispalyName}
-                    username={post.username}
-                    verified={post.verified}
-                    text={post.text}
-                    image={post.image}
-                    avatar={post.avatar}
+                        key={post.text}
+                        dispalyName={post.dispalyName}
+                        username={post.username}
+                        verified={post.verified}
+                        text={post.text}
+                        image={post.image}
+                        avatar={post.avatar}
                     />
                 ))}
+                </FlipMove>
+             
                 <Post dispalyName="Narayan Pandey" 
                     username='@narayan' verified={true}
                     text="Why are you Twitting?"
@@ -58,6 +63,7 @@ function Feed() {
                     avatar="/images/ak.jpg"
                     image="https://media0.giphy.com/media/65ATdpi3clAdjomZ39/200.gif"
                 /> 
+                
         
             </div>
               
